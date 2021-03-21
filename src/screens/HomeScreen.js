@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+/*import React, { useEffect } from 'react';
 
 import Product from '../components/Product';
 import LoadingBox from '../components/LoadingBox';
@@ -29,4 +29,18 @@ export default function HomeScreen() {
       )}
     </div>
   );
+}
+*/
+
+import React from 'react';
+
+import Product from '../components/product';
+import data from "../data.js";
+
+export default function HomeScreen(){
+  return (<div className="row center">
+          {data.products.map((product) => (
+          <Product product={product} key={product._id}/>
+          ))}
+        </div>);
 }
