@@ -1,6 +1,10 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "react",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": ["react", "starter"],
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,7 +14,7 @@
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "4.0.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
@@ -19,8 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },"devServer": {
-    contentBase: __dirname + "/public/"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
   },
   "browserslist": {
     "production": [
