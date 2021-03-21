@@ -1,4 +1,4 @@
-/*import React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import Product from '../components/Product';
 import LoadingBox from '../components/LoadingBox';
@@ -30,7 +30,7 @@ export default function HomeScreen() {
     </div>
   );
 }
-*/
+/*
 
 import React from 'react';
 
@@ -44,3 +44,4 @@ export default function HomeScreen(){
           ))}
         </div>);
 }
+*/
