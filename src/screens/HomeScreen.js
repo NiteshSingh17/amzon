@@ -34,7 +34,7 @@ export default function HomeScreen() {
 
 import React from 'react';
 
-import Product from '../components/product';
+import Product from '../components/Product.js';
 import data from "../data.js";
 
 export default function HomeScreen(){
