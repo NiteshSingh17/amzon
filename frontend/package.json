@@ -21,7 +21,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "BROWSER=none react-scripts start"
+    "start": "PATH=$PATH:/mnt/c/Windows/System32 react-scripts start"
   },
   "browserslist": {
     "production": [
